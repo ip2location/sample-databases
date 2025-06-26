@@ -49,8 +49,8 @@ IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv
 
 | Format       | IPv4 Sample                                                                                                        | IPv6 Sample                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **CSV**      | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.csv) | [IP Geolocation Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.csv) |
-| **BIN**      | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.bin) | [IP Geolocation Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.bin) |
+| **CSV**      | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.csv) | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.csv) |
+| **BIN**      | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.bin) | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.bin) |
 
 
 # Usage
