@@ -39,18 +39,18 @@ IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv
 
 ## Downloadable File Formats
 
-\- CSV: Comma-delimited text file with decimal ranges for direct database import or manual inspection.
+- CSV: Comma-delimited text file with decimal ranges for direct database import or manual inspection.
 
-\- BIN: IP2Location binary format for use with official IP2Location or IP2Proxy libraries.
+- BIN: IP2Location binary format for use with official IP2Location or IP2Proxy libraries.
 
-\- CIDR: Comma-delimited text file with CIDR ranges, useful for firewall rules, network scanning, log analysis, and infrastructure automation.
+- CIDR: Comma-delimited text file with CIDR ranges, useful for firewall rules, network scanning, log analysis, and infrastructure automation.
 
 ## Sample Databases
 
-| Format       | IPv4 Sample                                                                                                        | IPv6 Sample                                                                                                        |
+| Format       | IPv4 Address                                                                                                        | IPv6 Address                                                                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **CSV**      | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.csv) | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.csv) |
-| **BIN**      | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.bin) | [Proxy Detection Database Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.bin) |
+| **CSV**      | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.csv) |
+| **BIN**      | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv4.bin) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX1/ip2proxy-px1-sample.ipv6.bin) |
 
 
 # Usage
@@ -75,13 +75,13 @@ Alternatively, you may explore the articles at <https://blog.ip2location.com> fo
 
 # Other IP Geolocation Solutions
 
-\- [IP2Location.io IP Geolocation API](https://www.ip2location.io)
+- [IP2Location.io IP Geolocation API](https://www.ip2location.io)
 
-\- [IP2Location IP Geolocation Database](https://www.ip2location.com/database/ip2location)
+- [IP2Location IP Geolocation Database](https://www.ip2location.com/database/ip2location)
 
-\- [IP2Location LITE IP-ASN Database](https://lite.ip2location.com/database-asn)
+- [IP2Location LITE IP-ASN Database](https://lite.ip2location.com/database-asn)
 
-\- [IP2WHOIS WHOIS Domain Lookup](https://www.ip2whois.com/)
+- [IP2WHOIS WHOIS Domain Lookup](https://www.ip2whois.com/)
 
 # About IP2Location
 
