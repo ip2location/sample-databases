@@ -113,11 +113,11 @@ IP2Location delivers a precise, modular IP geolocation solution that maps any IP
 
 Each sample may includes:
 
-\- CSV: Comma-delimited text file with decimal ranges for direct database import or manual inspection.
+- CSV: Comma-delimited text file with decimal ranges for direct database import or manual inspection.
 
-\- BIN: IP2Location binary format for use with official IP2Location or IP2Proxy libraries.
+- BIN: IP2Location binary format for use with official IP2Location or IP2Proxy libraries.
 
-\- CIDR: Comma-delimited text file with CIDR ranges, useful for firewall rules, network scanning, log analysis, and infrastructure automation.
+- CIDR: Comma-delimited text file with CIDR ranges, useful for firewall rules, network scanning, log analysis, and infrastructure automation.
 
 # Useful Guides & Resources
 
@@ -127,13 +127,13 @@ Alternatively, you may explore the articles at <https://blog.ip2location.com> fo
 
 # Other IP Geolocation Solutions
 
-\- [IP2Location.io IP Geolocation API](https://www.ip2location.io)
+- [IP2Location.io IP Geolocation API](https://www.ip2location.io)
 
-\- [IP2Proxy Proxy Detection Database](https://www.ip2location.com/database/ip2proxy)
+- [IP2Proxy Proxy Detection Database](https://www.ip2location.com/database/ip2proxy)
 
-\- [IP2Location LITE IP-ASN Database](https://lite.ip2location.com/database-asn)
+- [IP2Location LITE IP-ASN Database](https://lite.ip2location.com/database-asn)
 
-\- [IP2WHOIS WHOIS Domain Lookup](https://ip2whois.com/)
+- [IP2WHOIS WHOIS Domain Lookup](https://ip2whois.com/)
 
 # About IP2Location
 
