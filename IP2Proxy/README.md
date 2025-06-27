@@ -47,6 +47,19 @@ Available in 12 structured packages with varying levels of granularity—such as
 | PX11 | [IP-ProxyType-Country-Region-City-ISP-Domain-UsageType-ASN-LastSeen-Threat-Residential-Provider](https://github.com/ip2location/sample-databases//tree/main/IP2Proxy/PX11) |
 | PX12 | [IP-ProxyType-Country-Region-City-ISP-Domain-UsageType-ASN-LastSeen-Threat-Residential-Provider-FraudScore](https://github.com/ip2location/sample-databases//tree/main/IP2Proxy/PX12) |
 
+### IP2Proxy Proxy Type
+| Proxy Type | Description | Anonymity |
+|------------|-------------|-----------|
+| **VPN** | Virtual Private Networks: A Virtual Private Network (VPN) is a service that provides users with a publicly accessible server to conceal their IP address. | High |
+| **TOR** | Tor Exit Nodes: The Tor Project is an open network used by those seeking anonymity via a free, worldwide, volunteer overlay network that consists of more thousands relays. | High |
+| **DCH** | Hosting Provider, Data Center or Content Delivery Network: As hosting providers and data centers can contribute to anonymity, the IP2Proxy database flags IP addresses associated with them. | Low |
+| **PUB** | Public Proxies: These services make connection requests on a user's behalf. Proxy server software can be configured by the administrator to listen on a specified port. They differ from VPNs in that proxies usually have limited functions compared to VPNs. | High |
+| **WEB** | Web Proxies: These are web services that make HTTP requests on behalf of a user. They differ from VPNs or Public Proxies as they operate as simple web proxies rather than at the IP address and other ports level. | High |
+| **SES** | Search Engine Robots: These are services that perform crawling or scraping on a website, such as the search engine spider or bot engine. | Low |
+| **RES** | Residential Proxies: These services offer users proxy connections through residential ISP with or without consents of peers to share their idle resources. *Only available with PX10 - PX12* | Medium |
+| **CPN** | Consumer Privacy Networks: These services ensure encrypted traffic from the user's browser by routing internet requests through relays, concealing the IP address, location, and browsing activity. *Only available with PX11 & PX12* | Low |
+| **EPN** | Enterprise Private Networks: Services like SASE or SD-WAN combine network security functions with wide-area networking (WAN) capabilities to meet the secure remote access needs of organizations. *Only available with PX11 & PX12* | Low |
+
 ### IP2Proxy Proxy Detection Database Packages Comparison
 
 | Product | Country | Proxy Type | Region & City | ISP | Domain | Usage Type | ASN | Last Seen | Threat | Residential Proxy | Provider | Fraud Score |
@@ -64,15 +77,20 @@ Available in 12 structured packages with varying levels of granularity—such as
 | PX11    | ✔      | 9         | ✔             | ✔  | ✔     | ✔          | ✔  | ✔        | ✔     | ✔                 | ✔       |              |
 | PX12    | ✔      | 9         | ✔             | ✔  | ✔     | ✔          | ✔  | ✔        | ✔     | ✔                 | ✔       | ✔           |
 
+Proxy types:
+- 6: VPN, TOR, DCH, PUB, WEB, SES
+- 7: VPN, TOR, DCH, PUB, WEB, SES, RES
+- 9: VPN, TOR, DCH, PUB, WEB, SES, RES, CPN, EPN
+  
 ## Supported Formats
 
 Each sample may includes:
 
-\- CSV: Comma-delimited text file with decimal ranges for direct database import or manual inspection.
+- CSV: Comma-delimited text file with decimal ranges for direct database import or manual inspection.
 
-\- BIN: IP2Location binary format for use with official IP2Location or IP2Proxy libraries.
+- BIN: IP2Location binary format for use with official IP2Location or IP2Proxy libraries.
 
-\- CIDR: Comma-delimited text file with CIDR ranges, useful for firewall rules, network scanning, log analysis, and infrastructure automation.
+- CIDR: Comma-delimited text file with CIDR ranges, useful for firewall rules, network scanning, log analysis, and infrastructure automation.
 
 # Useful Guides & Resources
 
@@ -82,13 +100,13 @@ Alternatively, you may explore the articles at <https://blog.ip2location.com> fo
 
 # Other IP Geolocation Solutions
 
-\- [IP2Location.io IP Geolocation API](https://www.ip2location.io)
+- [IP2Location.io IP Geolocation API](https://www.ip2location.io)
 
-\- [IP2Location IP Geolocation Database](https://www.ip2location.com/database/ip2location)
+- [IP2Location IP Geolocation Database](https://www.ip2location.com/database/ip2location)
 
-\- [IP2Location LITE IP-ASN Database](https://lite.ip2location.com/database-asn)
+- [IP2Location LITE IP-ASN Database](https://lite.ip2location.com/database-asn)
 
-\- [IP2WHOIS WHOIS Domain Lookup](https://www.ip2whois.com/)
+- [IP2WHOIS WHOIS Domain Lookup](https://www.ip2whois.com/)
 
 # About IP2Location
 
