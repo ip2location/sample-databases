@@ -63,7 +63,7 @@ IP2Location delivers a precise, modular IP geolocation solution that maps any IP
 ### IP2Location IP Geolocation Database Packages Comparison
 
 | DB  | Country | Region & City | Latitude & Longitude | ZIP Code | ISP | Domain | Time Zone | Net Speed | Area Code | Weather | Mobile | Elevation | Usage Type | Address Type | Category | District | ASN |
-|-----|---------|----------------|-----------------------|----------|-----|--------|------------|------------|------------|---------|--------|-----------|-------------|--------------|----------|----------|-----|
+|:-----:|:---------:|:----------------:|:-----------------------:|:----------:|:-----:|:--------:|:------------:|:------------:|:------------:|:---------:|:--------:|:-----------:|:-------------:|:--------------:|:----------:|:----------:|:-----:|
 | DB1 | ✔       |                |                       |          |     |        |            |            |            |         |        |           |             |              |          |          |     |
 | DB2 | ✔       |                |                       |          | ✔   |        |            |            |            |         |        |           |             |              |          |          |     |
 | DB3 | ✔       | ✔              |                       |          |     |        |            |            |            |         |        |           |             |              |          |          |     |
@@ -132,7 +132,7 @@ Available in 12 structured packages with varying levels of granularity—such as
 ### IP2Proxy Proxy Detection Database Packages Comparison
 
 | Product | Country | Proxy Type | Region & City | ISP | Domain | Usage Type | ASN | Last Seen | Threat | Residential Proxy | Provider | Fraud Score |
-|---------|---------|------------|----------------|-----|--------|-------------|-----|-----------|--------|--------------------|----------|--------------|
+|:---------:|:---------:|:------------:|:----------------:|:-----:|:--------:|:-------------:|:-----:|:-----------:|:--------:|:--------------------:|:----------:|:--------------:|
 | PX1     | ✔      |            |                |     |        |             |     |           |        |                    |          |              |
 | PX2     | ✔      | 6         |                |     |        |             |     |           |        |                    |          |              |
 | PX3     | ✔      | 6         | ✔             |     |        |             |     |           |        |                    |          |              |
