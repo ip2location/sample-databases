@@ -80,7 +80,7 @@ IP2Location delivers a precise, modular IP geolocation solution that maps any IP
 ### IP2Location IP Geolocation Database Packages Comparison
 
 | DB  | Country | Region & City | Latitude & Longitude | ZIP Code | ISP | Domain | Time Zone | Net Speed | Area Code | Weather | Mobile | Elevation | Usage Type | Address Type | Category | District | ASN |
-|-----|---------|----------------|-----------------------|----------|-----|--------|------------|------------|------------|---------|--------|-----------|-------------|--------------|----------|----------|-----|
+|:-----:|:---------:|:----------------:|:-----------------------:|:----------:|:-----:|:--------:|:------------:|:------------:|:------------:|:---------|--------:|:-----------:|:-------------:|:--------------:|:----------:|:----------:|:-----:|
 | DB1 | ✔       |                |                       |          |     |        |            |            |            |         |        |           |             |              |          |          |     |
 | DB2 | ✔       |                |                       |          | ✔   |        |            |            |            |         |        |           |             |              |          |          |     |
 | DB3 | ✔       | ✔              |                       |          |     |        |            |            |            |         |        |           |             |              |          |          |     |
