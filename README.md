@@ -8,8 +8,6 @@ IP2Proxy Proxy Detection contains proxy-related information including country, r
 
 This repository contains sample datasets for IP2Location and IP2Proxy—an ideal starting point for developers to explore the data format, field structure, and integration workflows
 
-https://www.ip2location.com
-
 # Databases
 
 | Database Product | Description | Sample Database |
