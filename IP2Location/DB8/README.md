@@ -23,7 +23,7 @@ For complete, high‑accuracy data with daily updates, please subscribe to the c
 | isp             | VARCHAR(256)                | Internet Service Provider or company name.                                     |
 | domain          | VARCHAR(128)                | Internet domain name assigned to the IP address range.                         |
 
-IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv4 or IPv6) and must be converted to dotted‑decimal or standard notation for readability. :contentReference[oaicite:1]{index=1}
+IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv4 or IPv6) and must be converted to standard IP notation for readability.
 
 ## Sample Rows in CSV Format
 ```csv

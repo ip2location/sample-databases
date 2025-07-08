@@ -55,14 +55,14 @@ IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv
 
 | Format       | IPv4 Address                                                                                                         | IPv6 Address                                                                                                         |
 |--------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **CSV** | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-DB9-sample.ipv4.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-DB9-sample.ipv6.csv) |
-| **BIN** | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-DB9-sample.ipv4.bin) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-DB9-sample.ipv6.bin) |
+| **CSV** | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-db9-sample.ipv4.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-db9-sample.ipv6.csv) |
+| **BIN** | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-db9-sample.ipv4.bin) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB9/ip2location-db9-sample.ipv6.bin) |
 
 # Usage
 
 ### CSV File for Database Query
 
-For details on importing the CSV file into a database and using SQL statements for IP lookup, please visit <https://www.ip2location.com/documentation/ip2location-database-DB9#codes>
+For details on importing the CSV file into a database and using SQL statements for IP lookup, please visit <https://www.ip2location.com/documentation/ip2location-database-db9#codes>
 
 ### BIN File for IP Lookup
 
@@ -74,7 +74,7 @@ This sample data is provided by IP2Location.com for evaluation purposes. Please 
 
 # Useful Guides & Resources
 
-For more information, please refer to the IP2Location.com official documentation at <https://www.ip2location.com/documentation/ip2location-database-DB9>, which provides comprehensive details and usage guidelines.
+For more information, please refer to the IP2Location.com official documentation at <https://www.ip2location.com/documentation/ip2location-database-db9>, which provides comprehensive details and usage guidelines.
 
 Alternatively, you may explore the articles at <https://blog.ip2location.com> for additional insights and practical examples.
 
