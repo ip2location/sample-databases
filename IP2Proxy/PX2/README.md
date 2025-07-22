@@ -59,8 +59,6 @@ IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv
 | **CIDR**     | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX2/ip2proxy-px2-sample.ipv4.cidr.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Proxy/PX2/ip2proxy-px2-sample.ipv6.cidr.csv) |
 
 
-
-
 # Usage
 
 ### CSV File for Database Query
