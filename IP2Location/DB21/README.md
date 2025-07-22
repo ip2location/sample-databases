@@ -54,10 +54,13 @@ IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv
 
 ## Sample Databases
 
-| Format       | IPv4 Address                                                                                                         | IPv6 Address                                                                                                         |
-|--------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **CSV** | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv4.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv6.csv) |
-| **BIN** | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv4.bin) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv6.bin) |
+| Format       | IPv4 Address
+| IPv6 Address                                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **CSV**      | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv4.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv6.csv) |
+| **BIN**      | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv4.bin) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv6.bin) |
+| **CIDR**     | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv4.cidr.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB21/ip2location-db21-sample.ipv6.cidr.csv) |
+
 
 # Usage
 

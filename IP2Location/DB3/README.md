@@ -54,6 +54,8 @@ IP addresses are stored as 32-bit or 128-bit unsigned integers (depending on IPv
 |--------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | **CSV**      | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB3/ip2location-db3-sample.ipv4.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB3/ip2location-db3-sample.ipv6.csv) |
 | **BIN**      | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB3/ip2location-db3-sample.ipv4.bin) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB3/ip2location-db3-sample.ipv6.bin) |
+| **CIDR**     | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB3/ip2location-db3-sample.ipv4.cidr.csv) | [Download Sample](https://github.com/ip2location/sample-databases/tree/main/IP2Location/DB3/ip2location-db3-sample.ipv6.cidr.csv) |
+
 
 # Usage
 
