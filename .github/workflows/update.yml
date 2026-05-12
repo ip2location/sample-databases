@@ -1,0 +1,59 @@
+name: Monthly Update Check
+
+on:
+  schedule:
+    # Runs at 02:00 UTC on the 1st day of every month
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
+
+jobs:
+  check-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history
+
+      - name: Check for updates in the last 24 hours
+        id: check_commits
+        run: |
+          # Count commits in the last 24 hours
+          COMMIT_COUNT=$(git log --since="24 hours ago" --oneline | wc -l)
+          echo "Found $COMMIT_COUNT commits in the last 24 hours."
+          
+          if [ "$COMMIT_COUNT" -eq "0" ]; then
+            echo "updates_found=false" >> $GITHUB_OUTPUT
+          else
+            echo "updates_found=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Notify Slack if no updates
+        if: steps.check_commits.outputs.updates_found == 'false'
+        uses: slackapi/slack-github-action@v1.26.0
+        with:
+          payload: |
+            {
+              "text": "*No updates detected!*",
+              "channel": "#error",
+              "attachments": [
+                {
+                  "color": "#ff0000",
+                  "fields": [
+                    {
+                      "title": "Status",
+                      "value": "No files were updated in the last 24 hours.",
+                      "short": false
+                    },
+                    {
+                      "title": "Repository",
+                      "value": "${{ github.repository }}",
+                      "short": true
+                    }
+                  ]
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
