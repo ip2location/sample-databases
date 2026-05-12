@@ -22,7 +22,7 @@ jobs:
           COMMIT_COUNT=$(git log --since="24 hours ago" --oneline | wc -l)
           echo "Found $COMMIT_COUNT commits in the last 24 hours."
           
-          if [ "$COMMIT_COUNT" -eq "0" ]; then
+          if [ "$COMMIT_COUNT" -ne "0" ]; then
             echo "updates_found=false" >> $GITHUB_OUTPUT
           else
             echo "updates_found=true" >> $GITHUB_OUTPUT
